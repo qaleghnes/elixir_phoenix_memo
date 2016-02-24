@@ -1,0 +1,8 @@
+build:
+  box: 
+    id: qaleghnes/docker-elixir-phoenix
+  steps:
+    - script:
+      name: elixir version
+      code: elixir -v
+
